@@ -11,7 +11,7 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb://aircnct:aircnc#-098765!@cluster0-shard-00-00-vgvxr.gcp.mongodb.net:27017,cluster0-shard-00-01-vgvxr.gcp.mongodb.net:27017,cluster0-shard-00-02-vgvxr.gcp.mongodb.net:27017/s9?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', {
+mongoose.connect('mongodb://URHOST+DB+US+KEY', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
